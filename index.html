@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/font-awesome.min.css">    
+<link rel="stylesheet" href="all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>227voyages</title>
+
+    <script src="https://kit.fontawesome.com/83b984fac3.js" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    
+      
+<script type="text/javascript">
+   $(document).ready(function(){
+      $('.slider').slider({full_width: true ,indicators:false, height:500});
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });  
+</script>
+
+<script>
+
+  $(document).ready(function() {
+
+  $('input.autocomplete').autocomplete({
+  data:{
+    "Agadez": null,
+    "Diffa": null,
+    "Dosso": null,
+    "Maradi": null,
+    "Niamey": null,
+    "Tahoua": null,
+    "Tillabery": null,
+    "Zinder": null,
+    "Google":'http://placeholder.it/250x250'
+  },
+});
+});
+</script>
+
+</head>
+<body>
+
+<nav class="teal">
+  <div class="container">
+    <div class="nav-wrapper">
+    <a href="#" class="brand-logo">227voyages</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#sea">Search</a></li>
+      <li><a href="#pop">Popular places</a></li>
+      <li><a href="#gal">Gallery</a></li>
+      <li><a href="#con">Contact</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<!--Slider & Captions-->
+
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <img src="i/voy1.jpg">
+      <div class="caption center-align">
+        <h3>Take Your Dream Vacation</h3>
+        <h5>You can easliy make this slider a fullscreen slider by adding the class fullscreen to the slider div. Here's a quick demo.</h5>
+        <a class="waves-effect wave-lignt btn">LEARN MORE</a>
+      </div>
+    </li>
+
+    <li>
+      <img src="i/voy2.jpg">
+      <div class="caption right-align">
+        <h3>Group and Individual Gataway</h3>
+        <h5>You can easliy make this slider a fullscreen slider by adding the class fullscreen to the slider div. Here's a quick demo.</h5>
+        <a class="waves-effect wave-lignt btn">LEARN MORE</a>
+      </div>
+    </li>
+
+    <li>
+      <img src="i/aga.jpg">
+      <div class="caption right-align">
+        <h3>We Work With All Budgets</h3>
+        <h5>You can easliy make this slider a fullscreen slider by adding the class fullscreen to the slider div. Here's a quick demo.</h5>
+        <a class="waves-effect wave-lignt btn">LEARN MORE</a>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!--Search with autocompletion-->
+<div class="teal" style="padding: 5px;">
+  <div class="container center-align">
+    <h5 class="white-text" id="sea">Search Destinations</h5>
+    <div class="input-field white">
+      <input type="search" id="autocomplete" class="autocomplete" placeholder="  Niamey Maradi etc.">
+      <label  for="autocomplete"></label>
+    </div>
+  </div>
+</div>
+
+<div class="grey lighten-4">
+  <div class="container" style="padding: 5px;">
+
+    <div class="row center-align">
+      <div class="col s12 m4 ">
+        <div class="card">
+        <div class="card-content">
+          <i class="medium material-icons teal-text">location_on</i>
+          <h4>Pick Where</h4>
+          <h6>Lorem ipsum dolor sit amet consecteture.</h6>
+        </div>
+      </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="card">
+        <div class="card-content">
+          <i class="medium material-icons teal-text">store</i>
+          <h4>travel Shop</h4>
+          <h6>Lorem ipsum dolor sit amet consecteture. </h6>
+        </div>
+      </div>
+      </div>
+
+      <div class="col s12 m4 ">
+        <div class="card">
+        <div class="card-content">
+          <i class="medium material-icons teal-text">flight</i>
+          <h4>fly chip</h4>
+          <h6>Lorem ipsum dolor sit amet consecteture.</h6>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+</div>
+<!--Places-->
+<div class="white">
+  <div class="container">
+    <div class="row center-align" id="pop">
+      <h5><span class="teal-text">Popular</span> places</h5>
+    </div>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/til.jfif" alt="" style="height: 200px;">
+            <span class="card-title">Parc W</span>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consecteture, adipisicing, elit, Quidum velit.
+            </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I8.jfif" alt="" style="height: 200px;">
+            <span class="card-title">Timia</span>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consecteture, adipisicing, elit, Quidum velit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I9.jfif" alt="" style="height: 200px;">
+            <span class="card-title">Palais des congrès</span>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consecteture, adipisicing, elit, Quidum velit.
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row center-align">
+      <button class="btn waves-effect waves-light black" type="submit">CONTACT FOR BOOKING
+        <i class="material-icons left">send</i>
+      </button>
+    </div>
+  </div>
+</div>
+
+ <!--Follow--> 
+<div class="teal">
+  <div class="container">
+    <div class="row center-align white-text">
+      <h5>Follow 227voyages</h5>
+      <h6>Follow us on social media for special offers</h6>
+      <ul >
+        
+        <i class="fab fa-facebook fa-2x"></i> 
+        <i class="fab fa-twitte fa-2x"></i> 
+        <i class="fab fa-linkedin fa-2x"></i> 
+        <i class="fab fa-google-plus-g fa-2x"></i>  
+        <i class="fab fa-pinterest fa-2x"></i>  
+      </ul>
+    </div>
+  </div>
+</div>
+ 
+<div>
+  <div class="container">
+    <div class="row center-align" id="gal">
+      <h5><span class="teal-text">Gallery</span> photo</h5>
+    </div>
+    <div class="row">
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I1.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I2.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I3.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I4.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+            
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I5.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I6.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I8.jfif" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I7.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I9.jfif" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I10.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I11.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="i/I12.jpg" alt=""  style="height: 120px;">
+          </div>
+        </div>
+      </div>
+              
+    </div>
+
+    <!--Contact and Form-->
+    <div class="row" id="con">
+      <div class="col s12 m6">
+        <div class="row">
+          <div class="card teal">
+          <div class="card-content white-text center-align">
+            <i class="medium material-icons">email</i>
+            <h6>Contact Us For Booking</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ipsa nesciunt, aut saepe consequatur ratione cum iste ea accusantium quo voluptas atque facere id deserunt deleniti autem in culpa et?</p>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="collection with-header">
+            <div class="collection-header"><h5>Location</h5></div>
+            <div class="collection-item">227voyages Agency</div>
+            <div class="collection-item">555 Beach rd, Suite 33</div>
+            <div class="collection-item">Niamey; NE, 447055</div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col s12 m6">
+        
+          <div class="card grey lighten-4">
+            <div class="card-content">
+               <div class="row"><h6>Please fill out this form</h6></div>
+          
+          <div class="row">
+            <div class="input-field">
+              <input type="text" id="name" class="validate">
+              <label for="name">Name</label>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="input-field">
+                <input type="email" id="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+          </div>
+          
+          <div class="row">
+            <div class="input-field">
+              <input type="tel" id="tel" class="validate">
+              <label for="tel">Phone</label>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="input-field">
+              <input type="text" id="text" class="validate">
+              <label for="text" id>Message</label>
+            </div>
+          </div>
+
+          <button class="btn" type="submit">SUBMIT</button>
+          </div>
+        </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="teal">
+  <div class="container">
+    <div class="row white-text center-align" style="padding: 8px;">
+        <h5>227voyages <script>document.write(new Date().getFullYear())</script> </h5>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
